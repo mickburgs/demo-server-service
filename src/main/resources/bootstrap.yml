@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: demo-server-service
+ 
+server:
+  port: 8080
+eureka:
+  instance:
+    preferIpAddress: true
+  client:
+    serviceUrl:
+      defaultZone: http://172.31.2.12:31557/eureka
