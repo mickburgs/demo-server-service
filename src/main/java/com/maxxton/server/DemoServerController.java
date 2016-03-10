@@ -13,6 +13,6 @@ public class DemoServerController {
 
     @RequestMapping(value="/greet",method= RequestMethod.GET)
     public String greet(@RequestParam String name) {
-        return "Hello " + name;
+        return "Latest: Hello " + name;
     }
 }
